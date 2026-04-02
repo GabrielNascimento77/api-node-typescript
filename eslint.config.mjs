@@ -16,7 +16,7 @@ export default defineConfig([
   { files: ["**/*.css"], plugins: { css }, language: "css/css", extends: ["css/recommended"] },
   {
     rules: {
-      "semi": ["warn", "always"],
+      "semi": ["error", "always"],
       "indent": ["error", 2], 
       "linebreak-style": ["error", ""],
       "quotes": ["error", "single"],
